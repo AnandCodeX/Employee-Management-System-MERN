@@ -1,0 +1,154 @@
+/** @format */
+.page {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	justify-content: flex-start;
+	align-items: center;
+	background: #f0f2f5;
+	font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width: 852px) {
+	.page {
+		align-items: flex-start;
+	}
+}
+#login_page {
+	justify-content: center;
+}
+
+#pageadmin {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: #f0f2f5;
+	font-family: Arial, sans-serif;
+}
+
+#login_form {
+	width: 400px;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	border-radius: 8px;
+	padding: 1rem;
+	align-items: center;
+	text-align: center;
+}
+
+#tt {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+
+.shadowbox {
+	margin-top: 20px;
+	width: auto;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	border-radius: 8px;
+	padding: 1rem;
+	align-items: center;
+	text-align: center;
+}
+
+#page__shadow {
+	display: flex;
+	width: 100%;
+	margin-top: 0;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	border-radius: 8px;
+	padding: 0.4rem;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.input {
+	border-radius: 8px;
+	border: 2px solid #dddfe2;
+	outline: none;
+	color: #1d2129;
+	margin: 0.5rem 0;
+	padding: 0.5rem 0.75rem;
+	width: 92%;
+	font-size: 1rem;
+}
+
+.button {
+	background: #1877f2;
+	border: 1px solid #1877f2;
+	color: #fff;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+}
+
+#employee__form {
+	margin-top: 6px;
+	width: 350px;
+	background: #fff;
+	border: 1px solid #dddfe2;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	border-radius: 8px;
+	padding: 1rem;
+	align-items: center;
+	text-align: center;
+}
+.temp {
+	margin-right: 10px;
+}
+
+.adtemp {
+	margin-right: 10px;
+}
+
+#employee__form > button {
+	background: #1877f2;
+	border: 1px solid #1877f2;
+	color: #fff;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+}
+
+.inpute {
+	border-radius: 8px;
+	border: 2px solid #dddfe2;
+	outline: none;
+	color: #1d2129;
+	margin: 0.2rem 0;
+	padding: 0.2rem 0.75rem;
+	width: 92%;
+	font-size: 1rem;
+}
+
+.admin__buttons {
+	display: flex;
+	margin-left: 20px;
+}
+.admin__buttons button {
+	margin: 5px 10px;
+}
+
+.table__index {
+	margin-right: 7px;
+}

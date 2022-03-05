@@ -1,0 +1,12 @@
+/** @format */
+
+#navbar_elements {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0d6efd;
+}
+#navbar_heading {
+	color: white;
+	margin-left: 10px;
+}
